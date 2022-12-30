@@ -99,3 +99,13 @@ h1{
 
 /*End of Folder section*/
 
+@media screen and (max-width: 600px)
+{
+    #ella .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #ella .right h1{
+        font-size: 50px;
+    }
+}
