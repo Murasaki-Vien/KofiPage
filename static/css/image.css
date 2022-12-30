@@ -64,11 +64,11 @@ h1{
 }
 /*end of images*/
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 600px) and (max-height: 900px)
 {
     #pics .title{
         text-align: center;
-        width: 90%;
+        width: 94%;
         padding-bottom: 40px;
     }
     #pics .title h1{
