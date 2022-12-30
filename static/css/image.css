@@ -58,3 +58,19 @@ h1{
     font-size: 40px;
 }
 /*end of images*/
+
+@media screen and (max-width: 600px)
+{
+
+    #pics .title h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        border-top: 9px solid #2b1e15;
+        border-bottom: 9px solid #201710;
+    }
+    #pics .title span{
+        font-family: 'Montserrat', sans-serif;
+        color: #312218;
+        font-size: 30px;
+}
+}
