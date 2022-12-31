@@ -118,11 +118,32 @@ h1{
     filter: drop-shadow(0px 4px 4px #704ae240);
 }
 
+#eimages .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
 /*End of pictures*/
 
 
 @media screen and (max-width: 600px) and (max-height: 900px)
 {
+    .cta{
+        font-weight: 900;
+        display: inline-block;
+        padding: 10px 19px;
+        color: #7d583e;
+        border: 2px solid #7d583e;
+        border-radius: 24px;
+        font-size: 20px;
+        background-color: transparent;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 30px;
+        transition: .3s ease background-color;
+    }
     #pics .title{
         text-align: center;
         width: 95%;
@@ -139,5 +160,11 @@ h1{
         font-family: 'Montserrat', sans-serif;
         color: #312218;
         font-size: 30px;
+    }
+    #eimages .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
     }
 }
