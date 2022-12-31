@@ -167,4 +167,9 @@ h1{
         justify-content: space-between;
         gap: 10px;
     }
+    #eimages .video-text{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
 }
