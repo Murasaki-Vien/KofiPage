@@ -152,9 +152,9 @@ h1{
     #pics .title h1{
         font-family: 'Poppins', sans-serif;
         font-size: 30px;
-        border-top: 9px solid #2b1e15;
-        border-bottom: 9px solid #201710;
-        padding-bottom: 10px;
+        border-top: 4px solid #2b1e15;
+        border-bottom: 4px solid #201710;
+        padding-bottom: 3px;
     }
     #pics .title span{
         font-family: 'Montserrat', sans-serif;
